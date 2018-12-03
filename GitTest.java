@@ -11,7 +11,13 @@ public class GitTest{
 
 	}
 
-	public String test(){
+	public void setInstance(String instance){
+
+			this.instance = instance;
+
+	}
+
+	public String toString(){
 
 		return instance;
 
